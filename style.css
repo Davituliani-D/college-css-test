@@ -1,0 +1,114 @@
+/* General setup */
+* {
+  box-sizing: border-box;
+  font-size: 15px;
+  font-family: 'Arvo', serif;
+}
+/*РАЗОБРАТЬСЯ СО ШРИФТОМ*/
+
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+  line-height: 1.5em;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  margin-bottom: 20px;
+}
+section p a {
+  padding-right: 1.3rem;
+background-image: url("https://github.com/mdn/learning-area/blob/main/css/styling-text/typesetting-a-homepage-start/external-link-52.png?raw=true");
+background-repeat: no-repeat;
+background-position: right;
+background-size: 1rem;
+}
+p {
+  margin-top: 20px;
+}
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+nav ul {
+padding: 0;
+width: 100%;
+}
+nav li {
+  list-style-type: none;
+  margin-top: 1rem;
+}
+
+nav li a {
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  line-height: 2;
+  text-align: center;
+  font-size: 1.5rem;
+  border: 2px solid #a66;
+}
+nav li a:focus, nav li a:hover {
+  color: white;
+  background: #a66;
+}
+
+nav li a:active {
+  color: white;
+  background: black;
+}
+nav li a:link{
+  text-decoration: none;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+header{
+  text-align: center;
+}
+h1, h2 {
+  letter-spacing: 3px;
+  font-size: 20px;
+}
+a[href^="http"]:before {
+  content: url(https://raw.githubusercontent.com/mdn/learning-area/main/css/styling-text/typesetting-a-homepage-start/external-link-52.png + attr(href) + );
+}
+
+
+a{color: brown;}
+a:link {text-decoration:underline;}
+a:visited {text-decoration:none;}
+a:active {text-decoration:none;
+color: black;}
+a:hover {text-decoration:none;}
+
+li{
+  list-style-type: square;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
